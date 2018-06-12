@@ -4,10 +4,10 @@ Gaia DR2 tutorial
 
 ## Goals
 
-- Learn about Gaia DR2 data produces
+- Learn about Gaia DR2 data products
 - Learn how to interface with Gaia archive with ADQL
-- Perform cross match with the Kepler field
-- Compute precise stellar radii
+- Perform the Gaia-KIC crossmatch
+- (if time) Compute precise stellar radii using `isoclassify`
 
 ## Preparation 
 
@@ -31,9 +31,10 @@ Gaia DR2 tutorial
 
 1. Perform the ADQL positional cross-match: Hipparcos vs. Gaia 1" radius. Listed as a query example on the ADQL search page.
 
-1. Download the KIC Gaia crossmatch
+1. Download the KIC Gaia crossmatch [link](https://www.dropbox.com/sh/rqrd0xcfrunwq3a/AABST14YsIwZAYH4cnfo7x8Aa?dl=0)
 
-1. If time, download and install [isoclassfiy](https://github.com/petigura/isoclassify)
+1. (If time) download and install [isoclassfiy](https://github.com/petigura/isoclassify)
 
   1. Make sure the following command works 
   1. `isoclassify run direct sol --csv examples/example.csv --outdir output/sol`
+  
