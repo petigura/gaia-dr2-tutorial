@@ -11,6 +11,8 @@ Gaia DR2 tutorial
 
 ## Preparation 
 
+1. Bring your laptops. We will be using ipython and pandas. 
+
 1. Read the [executive summary](https://gea.esac.esa.int/archive/documentation/GDR2/index.html) of Gaia DR2 and familiarize yourself with the following datafields
 
    1. parallax
