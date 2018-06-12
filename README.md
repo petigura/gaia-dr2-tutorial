@@ -2,27 +2,38 @@
 
 Gaia DR2 tutorial
 
-# Preparation 
+## Goals
 
-Read 
+- Learn about Gaia DR2 data produces
+- Learn how to interface with Gaia archive with ADQL
+- Perform cross match with the Kepler field
+- Compute precise stellar radii
 
-Read the [executive summary](https://gea.esac.esa.int/archive/documentation/GDR2/index.html) of Gaia DR2 
+## Preparation 
 
-Familiarize yourself with the following datafields
+1. Read the [executive summary](https://gea.esac.esa.int/archive/documentation/GDR2/index.html) of Gaia DR2 and familiarize yourself with the following datafields
 
-1. parallax
-1. astrometric_excess_noise
-1. phot_bp_mean_mag
-1. phot_rp_mean_mag 
-1. phot_g_mean_mag
+   1. parallax
+   1. astrometric_excess_noise
+   1. phot_bp_mean_mag
+   1. phot_rp_mean_mag 
+   1. phot_g_mean_mag
 
-Familiarize yourself with the [Gaia archive](https://gea.esac.esa.int/archive/)
+1. Familiarize yourself with the following terms
 
-Perform tghe ADQL positional cross-match: Hipparcos vs. Gaia 1" radius
+   1. Distance modulus
+   1. Bolometric correction
+   1. Extinction 
+   
+1. Familiarize yourself with the [Gaia archive](https://gea.esac.esa.int/archive/) and the ADQL language
 
-Download the KIC Gaia crossmatch
+1. Read about the ADQL language (see: ADQL language [here](https://gea.esac.esa.int/archive-help/adql/index.html) and [here](https://www.cosmos.esa.int/documents/915837/915858/ADQL_handson_slides.pdf/652b9120-a3fe-4857-b5eb-933b476687ad))
 
-Download and install isoclassfiy
+1. Perform the ADQL positional cross-match: Hipparcos vs. Gaia 1" radius. Listed as a query example on the ADQL search page.
 
-https://github.com/petigura/isoclassify
+1. Download the KIC Gaia crossmatch
 
+1. If time, download and install [isoclassfiy](https://github.com/petigura/isoclassify)
+
+  1. Make sure the following command works 
+  1. `isoclassify run direct sol --csv examples/example.csv --outdir output/sol`
