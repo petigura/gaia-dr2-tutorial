@@ -27,14 +27,15 @@ Gaia DR2 tutorial
    
 1. Familiarize yourself with the [Gaia archive](https://gea.esac.esa.int/archive/) and the ADQL language
 
-1. Read about the ADQL language (see: ADQL language [here](https://gea.esac.esa.int/archive-help/adql/index.html) and [here](https://www.cosmos.esa.int/documents/915837/915858/ADQL_handson_slides.pdf/652b9120-a3fe-4857-b5eb-933b476687ad))
-
-1. Perform the ADQL positional cross-match: Hipparcos vs. Gaia 1" radius. Listed as a query example on the ADQL search page.
+1. Learn about the ADQL language 
+   
+   1. Resources [1](https://gea.esac.esa.int/archive-help/adql/index.html) and [2](https://www.cosmos.esa.int/documents/915837/915858/ADQL_handson_slides.pdf/652b9120-a3fe-4857-b5eb-933b476687ad))
+   1. Perform the "ADQL positional cross-match: Hipparcos vs. Gaia 1" radius" (Listed as a query example on the ADQL search page.)
 
 1. Download the KIC Gaia crossmatch [link](https://www.dropbox.com/sh/rqrd0xcfrunwq3a/AABST14YsIwZAYH4cnfo7x8Aa?dl=0)
 
 1. (If time) download and install [isoclassfiy](https://github.com/petigura/isoclassify)
-
-  1. Make sure the following command works 
-  1. `isoclassify run direct sol --csv examples/example.csv --outdir output/sol`
+    
+    1. Make sure the following command works
+    1. `isoclassify run direct sol --csv examples/example.csv --outdir output/sol`
   
