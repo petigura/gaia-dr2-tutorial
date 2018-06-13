@@ -11,6 +11,7 @@ Gaia DR2 tutorial
 
 ## Preparation 
 
+
 1. Bring your laptops. We will be using ipython and pandas. 
 
 1. Read the [executive summary](https://gea.esac.esa.int/archive/documentation/GDR2/index.html) of Gaia DR2 and familiarize yourself with the following datafields
@@ -41,3 +42,4 @@ Gaia DR2 tutorial
     1. Make sure the following command works
     1. `isoclassify run direct sol --csv examples/example.csv --outdir output/sol`
   
+1. Skim [Fulton and Petigura 2018](https://arxiv.org/abs/1805.01453). Focus on Section 3.
