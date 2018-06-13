@@ -37,9 +37,10 @@ Gaia DR2 tutorial
 
 1. Download the KIC Gaia crossmatch [link](https://www.dropbox.com/sh/rqrd0xcfrunwq3a/AABST14YsIwZAYH4cnfo7x8Aa?dl=0)
 
-1. (If time) download and install [isoclassfiy](https://github.com/petigura/isoclassify)
+1. (If time) Skim [Fulton and Petigura 2018](https://arxiv.org/abs/1805.01453). Focus on Section 3.
+
+1. (If time) Download and install [isoclassfiy](https://github.com/petigura/isoclassify)
     
     1. Make sure the following command works
     1. `isoclassify run direct sol --csv examples/example.csv --outdir output/sol`
   
-1. Skim [Fulton and Petigura 2018](https://arxiv.org/abs/1805.01453). Focus on Section 3.
